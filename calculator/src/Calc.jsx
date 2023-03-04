@@ -48,7 +48,7 @@ const Calc = () => {
     <button className='hegihlight' name="+" onClick={handleClick}>+</button>
     <button name="00"  onClick={handleClick}>00</button>
     <button name="0"  onClick={handleClick}>0</button>
-    <button  className='hegihlight'name="."  onClick={handleClick}>.</button>
+    <button  name="."  onClick={handleClick}>.</button>
     <button  className='hegihlight'onClick={calculate}>=</button>
     
     
