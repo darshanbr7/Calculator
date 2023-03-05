@@ -17,7 +17,7 @@ const Calc = () => {
   try{
     setResult(eval(result).toString())
   }
-  catch(error){
+   catch(Error){
     setResult("Error")
   }
  }
